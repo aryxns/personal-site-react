@@ -1,0 +1,35 @@
+{
+  "name": "keeper-app-part-1-completed",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@chakra-ui/react": "1.1.1",
+    "@emotion/react": "11.1.4",
+    "@emotion/styled": "11.0.0",
+    "framer-motion": "3.1.1",
+    "react": "16.8.6",
+    "react-bootstrap": "1.4.0",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.2.0",
+    "react-simple-card": "2.0.2",
+    "react-typist": "2.0.5",
+    "react-typist-loop": "0.0.5"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

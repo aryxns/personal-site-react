@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+}
+body {
+  background: black;
+  padding: 0 16px;
+}
+
+header {
+  background-color: black;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.hr {
+  margin: auto;
+  width: 40%;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 100%;
+  margin: 20px;
+  float: center;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.content a {
+  color: white;
+}
+
+.intro {
+  color: white;
+  text-align: center;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.intro h2 {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 60%;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+.intro img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.intro h3 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
