@@ -12,7 +12,10 @@ const work = [
 function Intro() {
   return (
     <div className="intro">
-      <img src="https://pbs.twimg.com/profile_images/1221769186353074177/0Xg9Iuig_400x400.jpg" />
+      <img
+        src="https://pbs.twimg.com/profile_images/1221769186353074177/0Xg9Iuig_400x400.jpg"
+        alt="aryan"
+      />
       <br />
       <br />
       <h2>
